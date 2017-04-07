@@ -3,13 +3,13 @@ package com.pattern.model;
 /**
  * Created by Geek on 31/3/17.
  */
-public class Server extends Computer {
+public class PC extends Computer {
 
     private String ram;
     private String cpu;
     private String hdd;
 
-    public Server(String ram, String cpu, String hdd) {
+    public PC(String ram, String cpu, String hdd) {
         this.ram = ram;
         this.cpu = cpu;
         this.hdd = hdd;
