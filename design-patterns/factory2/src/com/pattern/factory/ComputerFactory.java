@@ -9,6 +9,7 @@ import com.pattern.model.Server;
  */
 public class ComputerFactory {
 
+    // Note: the factory method can be static or non-static as seen in other example.
     public static Computer getComputer(String type, String ram, String cpu, String hdd) {
 
         if ("PC".equalsIgnoreCase(type)) {
