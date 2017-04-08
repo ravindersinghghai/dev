@@ -7,6 +7,6 @@ import com.pattern.model.Computer;
  */
 public interface ComputerAbstractFactory {
 
-    public Computer createComputer();
+    Computer createComputer();
 
 }

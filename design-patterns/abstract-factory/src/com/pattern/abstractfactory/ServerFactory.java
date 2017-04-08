@@ -9,13 +9,13 @@ import com.pattern.model.Server;
 public class ServerFactory implements ComputerAbstractFactory {
 
     private String ram;
-    private String hdd;
     private String cpu;
+    private String hdd;
 
-    public ServerFactory(String ram, String hdd, String cpu) {
+    public ServerFactory(String ram, String cpu, String hdd) {
         this.ram = ram;
-        this.hdd = hdd;
         this.cpu = cpu;
+        this.hdd = hdd;
     }
 
     @Override
