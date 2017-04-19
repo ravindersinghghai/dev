@@ -1,3 +1,5 @@
+import javax.print.DocFlavor;
+
 /**
  * Lazy initialization method to implement Singleton pattern creates the instance in the global access
  * method. Following is the sample code for creating Singleton class with this approach.

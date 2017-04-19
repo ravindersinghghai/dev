@@ -14,7 +14,7 @@ public class EagerInitializedSingleton {
     private EagerInitializedSingleton() {
     }
 
-    // //private constructor to avoid client applications to use constructor
+    // private constructor to avoid client applications to use constructor
     public static EagerInitializedSingleton getInstance() {
         return instance;
     }
