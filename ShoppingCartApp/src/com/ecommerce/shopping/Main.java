@@ -14,30 +14,30 @@ public class Main {
         ShoppingCart sp1 = new ShoppingCart(promotionalRules);
 
         Tour tour1 = new Tour(
-            ShoppingCartConstants.OPERA_HOUSE_TOUR_ID,
-            ShoppingCartConstants.OPERA_HOUSE_TOUR,
-            ShoppingCartConstants.OPERA_HOUSE_TOUR_COST
+                ShoppingCartConstants.OPERA_HOUSE_TOUR_ID,
+                ShoppingCartConstants.OPERA_HOUSE_TOUR,
+                ShoppingCartConstants.OPERA_HOUSE_TOUR_COST
         );
         sp1.add(tour1);
 
         Tour tour2 = new Tour(
-            ShoppingCartConstants.OPERA_HOUSE_TOUR_ID,
-            ShoppingCartConstants.OPERA_HOUSE_TOUR,
-            ShoppingCartConstants.OPERA_HOUSE_TOUR_COST
+                ShoppingCartConstants.OPERA_HOUSE_TOUR_ID,
+                ShoppingCartConstants.OPERA_HOUSE_TOUR,
+                ShoppingCartConstants.OPERA_HOUSE_TOUR_COST
         );
         sp1.add(tour2);
 
         Tour tour3 = new Tour(
-            ShoppingCartConstants.OPERA_HOUSE_TOUR_ID,
-            ShoppingCartConstants.OPERA_HOUSE_TOUR,
-            ShoppingCartConstants.OPERA_HOUSE_TOUR_COST
+                ShoppingCartConstants.OPERA_HOUSE_TOUR_ID,
+                ShoppingCartConstants.OPERA_HOUSE_TOUR,
+                ShoppingCartConstants.OPERA_HOUSE_TOUR_COST
         );
         sp1.add(tour3);
 
         Tour tour4 = new Tour(
-            ShoppingCartConstants.SYDNEY_BRIDGE_CLIMB_ID,
-            ShoppingCartConstants.SYDNEY_BRIDGE_CLIMB,
-            ShoppingCartConstants.SYDNEY_BRIDGE_CLIMB_COST
+                ShoppingCartConstants.SYDNEY_BRIDGE_CLIMB_ID,
+                ShoppingCartConstants.SYDNEY_BRIDGE_CLIMB,
+                ShoppingCartConstants.SYDNEY_BRIDGE_CLIMB_COST
         );
         sp1.add(tour4);
         System.out.println("OH, OH, OH, BC - Total expected: $710.00: Actual result: " + sp1.getTotal());

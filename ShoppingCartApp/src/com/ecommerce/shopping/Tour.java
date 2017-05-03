@@ -57,7 +57,7 @@ public class Tour {
         double result = getId().hashCode();
         result = 31 * result + getName().hashCode();
         result = 31 * result + getPrice();
-        return (int)result;
+        return (int) result;
     }
 
     @Override

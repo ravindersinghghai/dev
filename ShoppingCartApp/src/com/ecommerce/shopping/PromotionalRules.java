@@ -9,7 +9,9 @@ import java.util.ArrayList;
 public interface PromotionalRules {
 
     double operaHouseDeal(ArrayList<Tour> tours);
+
     double sydneySkyTowerDeal(ArrayList<Tour> tours);
+
     double sydneyBridgeClimbDeal(ArrayList<Tour> tours);
 
 }

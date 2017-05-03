@@ -19,7 +19,7 @@ public class ShoppingCart {
         tours = new ArrayList<>();
     }
 
-    public void add(Tour tour)  {
+    public void add(Tour tour) {
         try {
             if (null != tour && tour.getId() != null && null != tour.getName()
                     && tour.getPrice() >= 0) {
